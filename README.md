@@ -6,7 +6,7 @@ https://software-carpentry.org/_
 # Episode Specs
 This repository hosts a public copy of the assignment write-ups for this course offering. As assignments get “published,” you may visit this repository to read the description of each upcoming episode. Where applicable, accepting the corresponding assignment in [GitHub Classroom](https://classroom.github.com) will yield a repository containing a copy of these instructions as well.
 
-* **Episode 0121** Filescape navigator <kbd>extended to 0909</kbd>
+* [Episode 0121](./filescape-navigator.md) Filescape navigator
 * **Episode 0204** Curator personalis
 * **Episode 0218** Edits, envs, and execution
 * **Episode 0309** To [Git]hub and to hold
