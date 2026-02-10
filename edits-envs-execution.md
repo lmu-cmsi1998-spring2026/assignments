@@ -35,7 +35,7 @@ _Note:_ We acknowledge that we may all have a favorite when it comes to a comman
 ### Scene One: Bespoke Commands
 1. Use the command-line editor of your choice (`vi`, `nano`, `pico`…probably not `ed` 😬) to write the two (2) short, simple scripts mentioned above. You can have the code offscreen somewhere if you aren’t comfortable rewriting them from scratch, but make sure that you show yourself typing things out on video! The point here, after all, is to show that you know your way around a command-line editor
 2. Show that those programs work via `source` or `python` (or other appropriate language)
-3. Use `which` onscreen to show the viewer where your shell and Python (or other language) are located
+3. Use `which` onscreen to show the viewer where your shell and Python (or other language) are located (for your shell, you can also invoke `echo $SHELL`—heck, why not do both 🤓)
 4. Re-edit the programs on the command line and add the correct _shbang_ (`#!`) prefix to each of them
     * Specific to _Git Bash_ users, you will want to perform this step _after_ the next one, in lieu of `chmod u+x`. This is due to a _Git Bash_-specific functionality where the executability of a script/program is determined by the presence of the _shbang_ line rather than manual execution of `chmod u+x`
 5. Use `ls -l` or `ls -F` to show that your files are not yet marked as executable
