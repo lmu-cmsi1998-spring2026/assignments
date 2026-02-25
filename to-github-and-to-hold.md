@@ -136,7 +136,7 @@ For this particular episode, graded categories are as follows:
 | • Initializing and populating a _git_ repository from scratch | 15 points |
 | • Checking the status of a _git_ repository  | 10 points |
 | • Renaming, editing, committing, and pushing files from the command line | 20 points |
-| • Formatting original content with requested Markdown styles | 15 points |
+| • Formatting original content with requested Markdown styles using both command-line editors learned so far | 15 points |
 | • Using commands and techniques from prior episodes (`cd`, `ls`, `more`/`less`, tab autocomplete, command history/search, command editing, `mv`, etc.) | 10 points |
 | Fun factor (counted only if content and proficiencies are complete) | extra credit |
 | Sus footage | deduction only |
