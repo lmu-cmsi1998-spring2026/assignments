@@ -81,11 +81,10 @@ On-camera, the scene should start with the following:
 
 Off-camera, both team members should do their work, committing as frequently as necessary. Once the work is finished, the team goes back on camera to show the following:
 1. Both team members take turns using `git log` to show the work that they have done on their respective branches, then push their branch to `origin` so that the GitHub server is fully updated
-2. One of the team members then goes to _Insights > Network_ on their repository’s GitHub website to show how all three branches (`main`, the bug-fix branch, and the new-module branch) are visualized by the website
-3. The bug-fixing team member merges the bug-fix branch into `main`, demonstrating how `main` now handles an unsupported operator gracefully. `main` is then pushed to the server
-4. The new-module team member switches to `main`, invokes `git pull`, then merges `main` into the new-module branch. After the merge, the new-module branch should now handle unsupported operators gracefully as well, _and_ also support the new operation implemented by the module. Once everything is working, the merged branch should be pushed to the server
-5. The new-module team member merges the new-module branch into `main` and pushes this to the server as well
-6. Finally, the bug-fixing team member pulls `main`, showing that they too now have both the fixed program and the newly-implemented operator
+2. The bug-fixing team member merges the bug-fix branch into `main`, demonstrating how `main` now handles an unsupported operator gracefully. `main` is then pushed to the server
+3. The new-module team member switches to `main`, invokes `git pull`, then merges `main` into the new-module branch. After the merge, the new-module branch should now handle unsupported operators gracefully as well, _and_ also support the new operation implemented by the module. Once everything is working, the merged branch should be pushed to the server
+4. The new-module team member merges the new-module branch into `main` and pushes this to the server as well
+5. Finally, the bug-fixing team member pulls `main`, showing that they too now have both the fixed program and the newly-implemented operator
 
 This scene models how bug-fixing and new-feature development can take place on a software product at the same time 🪲
 
@@ -100,7 +99,6 @@ Once the committing member’s work is done, the team returns to the camera to m
 3. That team member then switches back to their branch, invokes `git stash pop`, then commits to their branch, merges into `main`, and verifies _their_ work on `main` before pushing
 4. If a merge results in a conflict, both team members should look at the conflicting code and figure out how to resolve it together. After that, the usual merge conflict resolution sequence should be performed
 5. Once both new operators have been successfully merged into `main`, one team member performs a cumulative demo showing how their version of _calc.py_ now supports four (4) operators overall: the original `add` operator, the operator added in Scene One, and the two operators added in Scene Two
-6. After the demo, the other team member then shows GitHub’s _Insights > Network_ view to review the overall history of their code up to this point
 
 This scene models how multiple new features can be developed concurrently, then merged into a new version of the software product once the features are done 🚀
 
