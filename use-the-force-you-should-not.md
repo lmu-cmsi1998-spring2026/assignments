@@ -27,6 +27,7 @@ Remember that for the command examples in the scenes below, the angle brackets `
 Enact a situation that calls for an appropriate use of the `git restore` command, which discards current uncommitted changes to files and takes them back to their last committed versions:
 
     git restore <files/folders>
+    git restore --staged <files/folders>
 
 Make sure to also include the case of files that have _never_ been committed, and how `git restore` behaves differently with those files (as seen in class)
 
